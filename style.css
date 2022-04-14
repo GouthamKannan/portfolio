@@ -1,0 +1,91 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/background.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+
+#about, #services, #projects, #contact, #skills{
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+#skills{
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top: 2rem;
+}
+
+.skill{
+    padding:1rem 2rem;
+    margin-bottom:1.5rem;
+    margin-right:1.5rem;
+    font-size:1rem;
+    background:rgba(153,153,153,.2);
+    border-radius:5px;
+    font-weight:600;
+    color:#666
+}
+
+.content {
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-size:1.4rem;
+    font-weight:600;
+}
